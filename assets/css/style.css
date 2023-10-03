@@ -1,0 +1,385 @@
+:root{
+    --back-colors-gradient-one: linear-gradient(45deg, #b700ff, #00ffdd);
+}
+
+*{
+    box-sizing: border-box;
+}
+html{
+    width: 100%;
+    height: 100%;
+}
+body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+    font-family: Roboto, sans-serif;
+    background-color: #454545;
+}
+button{
+    font-family: Roboto, sans-serif;
+}
+figure{
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+main h1:nth-child(1){
+    color: white;
+    margin-top: 30px;
+}
+
+
+
+
+/* -------POKEMON CARD---------- */
+
+
+
+
+.poke-list{
+    list-style-type: none;
+    margin: 0px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+}
+.poke-card figure{
+    width: 100%;
+}
+
+.poke-card img{
+    width: 80%;
+    animation: img-move 2s alternate infinite linear;
+}
+
+.poke-card{
+    position: relative;
+    border-radius: 10px;
+    color: white;
+    overflow: hidden;
+    transition: transform 0.1s;
+}
+.poke-card:hover{
+    filter: brightness(1.1);
+}
+.border{
+    position: absolute;
+    top: -50%;
+    left: -25%;
+    animation: backcolor-animation 5s infinite ease-in;
+    height: 250%;
+    width: 150%;
+}
+.content{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    background-color: #2f2f2f;
+    margin: 2px;
+    border-radius: 10px;
+    width: 98%;
+    height: 98%;
+}
+.sub-card-one{
+    padding: 20px;
+    flex: 50%;
+
+}
+.sub-card-one p{
+    text-align: center;
+    border-radius: 15px;
+    padding: 5px;
+}
+.sub-card-one h1{
+    text-align: center;
+    font-size: 1.3rem;
+    text-transform: capitalize;
+}
+.sub-card-two{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 5px 5px;
+    flex: 50%;
+}
+.link-window{
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 15px;
+    color: white;
+    text-align: center;
+    display: block;
+    filter: brightness(1.1);
+    background-color: #8080804d;
+    transition: font-size 0.1s, transform 0.3s, background-color 0.3s;
+}
+.link-window:hover{
+    background-color: transparent;
+    font-weight: 600;
+}
+.link-window:active{
+    transform: scale(0.9);
+}
+
+
+
+
+
+
+
+/* ---------MORE BTN----------- */
+
+
+
+
+
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 50px 0px;
+}
+.btn-more{
+    background-color: transparent;
+    background-image: var(--back-colors-gradient-one);
+    border: none;
+    color: white;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    border-radius: 15px;
+    transition: transform 0.5s, font-size 0.5s, outline 0.5s;
+}
+.btn-more:hover{
+    transform: scale(1.2);
+    outline: 5px solid #b700ff;
+    outline-offset: 5px;   
+}
+
+
+
+
+
+/* ----------POKEMON INFO WINDOW----------- */
+
+
+
+
+
+
+.details-window{
+    top: 100px;
+    position: absolute;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    border-radius: 15px;
+}
+.sec-content{
+    background-color: #2f2f2f;
+    border-radius: 10px;
+    width: 98%;
+    height: 98%;
+}
+.window-btns{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 80px;
+}
+.window-btns button{
+    background-color: transparent;
+    border: none;
+    border-radius: 15px;
+}
+.window-btns button:hover{
+    background-color: black;
+}
+.window-btns img{
+    width: 35px;
+}
+.window-header{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px;
+}
+.window-header div p{
+    padding: 5px 15px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.window-header div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.window-header h1{
+    padding: 0px 0px 0px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.window-header p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.window-header img{
+    width: 90%;
+}
+.window-content{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.info-btns{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.underline{
+    width: 140px;
+    height: 5px;
+}
+.underline div{
+    height: 100%;
+    width: 50px;
+    background-image: var(--back-colors-gradient-one);
+    border-radius: 10px;
+}
+.info-btns button{
+    color: white;
+    border: none;
+    background-color: transparent;
+    font-weight: 600;
+    font-size: 1rem;
+    border-radius: 15px;
+    transition: transform 0.5s, background-color 0.5s, outline-color 0.5s;
+    outline: 2px solid transparent;
+}
+.info-btns button:hover{
+    background-color: white;
+    color: black;
+    transform: scale(1.05);
+    outline-color: violet;
+}
+.active-bar{
+    width: 75%;
+    height: 5px;
+    margin: 5px;
+    border-radius: 10px;
+}
+.info-content{
+    width: 100%;
+}
+.info-values-about{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+.info-values-base{
+    width: 100%;
+    display: none;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 10px;    
+}
+.info-values-base div:nth-last-of-type(1){
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 5px;
+}
+#window-abilities-poke{
+    border-radius: 10px;
+    padding: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 500px) {
+    .poke-list{
+        grid-template-columns: 1fr 1fr;   
+    }
+}
+@media only screen and (min-width: 800px) {
+    .poke-list{
+        grid-template-columns: repeat(3, 1fr);   
+    }
+}
+@media only screen and (min-width: 1100px) {
+    .poke-list{
+        grid-template-columns: repeat(4, 1fr);   
+    }
+    .btn-more{
+        padding: 20px 30px;
+    }
+}
+@media only screen and (min-width: 1300px) {
+    .poke-list{
+        grid-template-columns: repeat(5, 1fr);   
+    }
+}
+
+
+
+
+@keyframes backcolor-animation {
+    0%{
+        transform: rotate(0);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+@keyframes img-move {
+    0%{
+        transform: none;
+    }
+    100%{
+        transform: scale(1.05);
+    }
+}
+
+
+

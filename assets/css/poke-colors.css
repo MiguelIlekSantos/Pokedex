@@ -1,0 +1,392 @@
+:root{
+
+    /* -----------POKEMON SECTION COLORS----------- */
+    
+        --color-normal: #a6a877;
+        --color-normal-sec: #6b6c4c;
+        --color-grass: #77c850;
+        --color-grass-sec: #408b1d;
+        --color-fire: #ee7f30;
+        --color-fire-sec: #985423;
+        --color-water: #678fee;
+        --color-water-sec: #264181;
+        --color-electric: #f7cf2e;
+        --color-electric-sec: #7f6b1c;
+        --color-ice: #98d5d7;
+        --color-ice-sec: #507677;
+        --color-ground: #dfbf69;
+        --color-ground-sec: #766535;
+        --color-flying: #a98ff0;
+        --color-flying-sec: #594c7f;
+        --color-poison: #a040a0;
+        --color-poison-sec: #652765;
+        --color-fighting: #bf3029;
+        --color-fighting-sec: #6c1e1a;
+        --color-psychic: #f65687;
+        --color-psychic-sec: #6e253b;
+        --color-dark: #725847;
+        --color-dark-sec: #513828;
+        --color-rock: #b8a137;
+        --color-rock-sec: #4f4518;
+        --color-bug: #a8b720;
+        --color-bug-sec: #565c1c;
+        --color-ghost: #6e5896;
+        --color-ghost-sec: #382c4d;
+        --color-steel: #b9b7cf;
+        --color-steel-sec: #4f4d5c;
+        --color-dragon: #6f38f6;
+        --color-dragon-sec: #311b69;
+        --color-fairy: #f9aec7;
+        --color-fairy-sec: #6a4954;
+
+}
+    
+    
+    .p-normal{
+        border: 1px solid var(--color-normal);
+        box-shadow: 0px 0px 5px 1px var(--color-normal);
+    }
+    .p-grass{
+        border: 1px solid var(--color-grass);
+        box-shadow: 0px 0px 5px 1px var(--color-grass);
+    }    
+    .p-fire{
+        border: 1px solid var(--color-fire);
+        box-shadow: 0px 0px 5px 1px var(--color-fire);
+    }    
+    .p-water{
+        border: 1px solid var(--color-water);
+        box-shadow: 0px 0px 5px 1px var(--color-water);
+    }    
+    .p-electric{
+        border: 1px solid var(--color-electric);
+        box-shadow: 0px 0px 5px 1px var(--color-electric);
+    }    
+    .p-ice{
+        border: 1px solid var(--color-ice);
+        box-shadow: 0px 0px 5px 1px var(--color-ice);
+    }    
+    .p-ground{
+        border: 1px solid var(--color-ground);
+        box-shadow: 0px 0px 5px 1px var(--color-ground);
+    }    
+    .p-flying{
+        border: 1px solid var(--color-flying);
+        box-shadow: 0px 0px 5px 1px var(--color-flying);
+    }    
+    .p-poison{
+        border: 1px solid var(--color-poison);
+        box-shadow: 0px 0px 5px 1px var(--color-poison);
+    }    
+    .p-fighting{
+        border: 1px solid var(--color-fighting);
+        box-shadow: 0px 0px 5px 1px var(--color-fighting);
+    }    
+    .p-psychic{
+        border: 1px solid var(--color-psychic);
+        box-shadow: 0px 0px 5px 1px var(--color-psychic);
+    }    
+    .p-dark{
+        border: 1px solid var(--color-dark);
+        box-shadow: 0px 0px 5px 1px var(--color-dark);
+    }   
+    .p-rock{
+        border: 1px solid var(--color-rock);
+        box-shadow: 0px 0px 5px 1px var(--color-rock);
+    }    
+    .p-bug{
+        border: 1px solid var(--color-bug);
+        box-shadow: 0px 0px 5px 1px var(--color-bug);
+    }    
+    .p-ghost{
+        border: 1px solid var(--color-ghost);
+        box-shadow: 0px 0px 5px 1px var(--color-ghost);
+    }    
+    .p-steel{
+        border: 1px solid var(--color-steel);
+        box-shadow: 0px 0px 5px 1px var(--color-steel);
+    }   
+    .p-dragon{
+        border: 1px solid var(--color-dragon);
+        box-shadow: 0px 0px 5px 1px var(--color-dragon);
+    }   
+    .p-fairy{
+        border: 1px solid var(--color-fairy);
+        box-shadow: 0px 0px 5px 1px var(--color-fairy);
+    }
+    
+    .border-normal{
+        background-image: conic-gradient(from 0deg, var(--color-normal), var(--color-normal-sec));
+    }
+    .border-grass{
+        background-image: conic-gradient(from 0deg, var(--color-grass), var(--color-grass-sec));
+    }
+    .border-fire{
+        background-image: conic-gradient(from 0deg, var(--color-fire), var(--color-fire-sec));
+    }
+    .border-water{
+        background-image: conic-gradient(from 0deg, var(--color-water), var(--color-water-sec));
+    }
+    .border-electric{
+        background-image: conic-gradient(from 0deg, var(--color-electric), var(--color-electric-sec));
+    }
+    .border-ice{
+        background-image: conic-gradient(from 0deg, var(--color-ice), var(--color-ice-sec));
+    }
+    .border-ground{
+        background-image: conic-gradient(from 0deg, var(--color-ground), var(--color-ground-sec));
+    }
+    .border-flying{
+        background-image: conic-gradient(from 0deg, var(--color-flying), var(--color-flying-sec));
+    }
+    .border-poison{
+        background-image: conic-gradient(from 0deg, var(--color-poison), var(--color-poison-sec));
+    }
+    .border-fighting{
+        background-image: conic-gradient(from 0deg, var(--color-fighting), var(--color-fighting-sec));
+    }
+    .border-psychic{
+        background-image: conic-gradient(from 0deg, var(--color-psychic), var(--color-psychic-sec));
+    }
+    .border-darks{
+        background-image: conic-gradient(from 0deg, var(--color-darks), var(--color-darks-sec));
+    }
+    .border-rock{
+        background-image: conic-gradient(from 0deg, var(--color-rock), var(--color-rock-sec));
+    }
+    .border-bug{
+        background-image: conic-gradient(from 0deg, var(--color-bug), var(--color-bug-sec));
+    }
+    .border-ghost{
+        background-image: conic-gradient(from 0deg, var(--color-ghost), var(--color-ghost-sec));
+    }
+    .border-steel{
+        background-image: conic-gradient(from 0deg, var(--color-steel), var(--color-steel-sec));
+    }
+    .border-dragon{
+        background-image: conic-gradient(from 0deg, var(--color-dragon), var(--color-dragon-sec));
+    }
+    .border-fairy{
+        background-image: conic-gradient(from 0deg, var(--color-fairy), var(--color-fairy-sec));
+    }
+    
+    .span-normal{
+        color: var(--color-normal);
+    }
+    .span-grass{
+        color: var(--color-grass);
+    }
+    .span-fire{
+        color: var(--color-fire);
+    }
+    .span-water{
+        color: var(--color-water);
+    }
+    .span-electric{
+        color: var(--color-electric);
+    }
+    .span-ice{
+        color: var(--color-ice);
+    }
+    .span-ground{
+        color: var(--color-ground);
+    }
+    .span-flying{
+        color: var(--color-flying);
+    }
+    .span-poison{
+        color: var(--color-poison);
+    }
+    .span-fighting{
+        color: var(--color-fighting);
+    }
+    .span-psychic{
+        color: var(--color-psychic);
+    }
+    .span-darks{
+        color: var(--color-dark);
+    }
+    .span-rock{
+        color: var(--color-rock);
+    }
+    .span-bug{
+        color: var(--color-bug);
+    }
+    .span-ghost{
+        color: var(--color-ghost);
+    }
+    .span-steel{
+        color: var(--color-steel);
+    }
+    .span-dragon{
+        color: var(--color-dragon);
+    }
+    .span-fairy{
+        color: var(--color-fairy);
+    }
+        
+    .underline-normal{
+        text-decoration: underline 1px var(--color-normal);
+    }
+    .underline-grass{
+        text-decoration: underline 1px var(--color-grass);
+    }
+    .underline-fire{
+        text-decoration: underline 1px var(--color-fire);
+    }
+    .underline-water{
+        text-decoration: underline 1px var(--color-water);
+    }
+    .underline-electric{
+        text-decoration: underline 1px var(--color-electric);
+    }
+    .underline-ice{
+        text-decoration: underline 1px var(--color-ice);
+    }
+    .underline-ground{
+        text-decoration: underline 1px var(--color-ground);
+    }
+    .underline-flying{
+        text-decoration: underline 1px var(--color-flying);
+    }
+    .underline-poison{
+        text-decoration: underline 1px var(--color-poison);
+    }
+    .underline-fighting{
+        text-decoration: underline 1px var(--color-fighting);
+    }
+    .underline-psychic{
+        text-decoration: underline 1px var(--color-psychic);
+    }
+    .underline-darks{
+        text-decoration: underline 1px var(--color-darks);
+    }
+    .underline-rock{
+        text-decoration: underline 1px var(--color-rock);
+    }
+    .underline-bug{
+        text-decoration: underline 1px var(--color-bug);
+    }
+    .underline-ghost{
+        text-decoration: underline 1px var(--color-ghost);
+    }
+    .underline-steel{
+        text-decoration: underline 1px var(--color-steel);
+    }
+    .underline-dragon{
+        text-decoration: underline 1px var(--color-dragon);
+    }
+    .underline-fairy{
+        text-decoration: underline 1px var(--color-fairy);
+    }
+
+    .filter-normal{
+        filter: drop-shadow(0px 0px 5px var(--color-normal));
+    }
+    .filter-grass{
+        filter: drop-shadow(0px 0px 5px var(--color-grass));
+    }
+    .filter-fire{
+        filter: drop-shadow(0px 0px 5px var(--color-fire));
+    }
+    .filter-water{
+        filter: drop-shadow(0px 0px 5px var(--color-water));
+    }
+    .filter-electric{
+        filter: drop-shadow(0px 0px 5px var(--color-electric));
+    }
+    .filter-ice{
+        filter: drop-shadow(0px 0px 5px var(--color-ice));
+    }
+    .filter-ground{
+        filter: drop-shadow(0px 0px 5px var(--color-ground));
+    }
+    .filter-flying{
+        filter: drop-shadow(0px 0px 5px var(--color-flying));
+    }
+    .filter-poison{
+        filter: drop-shadow(0px 0px 5px var(--color-poison));
+    }
+    .filter-fighting{
+        filter: drop-shadow(0px 0px 5px var(--color-fighting));
+    }
+    .filter-psychic{
+        filter: drop-shadow(0px 0px 5px var(--color-psychic));
+    }
+    .filter-darks{
+        filter: drop-shadow(0px 0px 5px var(--color-darks));
+    }
+    .filter-rock{
+        filter: drop-shadow(0px 0px 5px var(--color-rock));
+    }
+    .filter-bug{
+        filter: drop-shadow(0px 0px 5px var(--color-bug));
+    }
+    .filter-ghost{
+        filter: drop-shadow(0px 0px 5px var(--color-ghost));
+    }
+    .filter-steel{
+        filter: drop-shadow(0px 0px 5px var(--color-steel));
+    }
+    .filter-dragon{
+        filter: drop-shadow(0px 0px 5px var(--color-dragon));
+    }
+    .filter-fairy{
+        filter: drop-shadow(0px 0px 5px var(--color-fairy));
+    }
+
+    .back-color-normal{
+        background-image: linear-gradient(135deg, var(--color-normal), var(--color-normal-sec));
+    }
+    .back-color-grass{
+        background-image: linear-gradient(135deg, var(--color-grass), var(--color-grass-sec));
+    }
+    .back-color-fire{
+        background-image: linear-gradient(135deg, var(--color-fire), var(--color-fire-sec));
+    }
+    .back-color-water{
+        background-image: linear-gradient(135deg, var(--color-water), var(--color-water-sec));
+    }
+    .back-color-electric{
+        background-image: linear-gradient(135deg, var(--color-electric), var(--color-electric-sec));
+    }
+    .back-color-ice{
+        background-image: linear-gradient(135deg, var(--color-ice), var(--color-ice-sec));
+    }
+    .back-color-ground{
+        background-image: linear-gradient(135deg, var(--color-ground), var(--color-ground-sec));
+    }
+    .back-color-flying{
+        background-image: linear-gradient(135deg, var(--color-flying), var(--color-flying-sec));
+    }
+    .back-color-poison{
+        background-image: linear-gradient(135deg, var(--color-poison), var(--color-poison-sec));
+    }
+    .back-color-fighting{
+        background-image: linear-gradient(135deg, var(--color-fighting), var(--color-fighting-sec));
+    }
+    .back-color-psychic{
+        background-image: linear-gradient(135deg, var(--color-psychic), var(--color-psychic-sec));
+    }
+    .back-color-darks{
+        background-image: linear-gradient(135deg, var(--color-darks), var(--color-darks-sec));
+    }
+    .back-color-rock{
+        background-image: linear-gradient(135deg, var(--color-rock), var(--color-rock-sec));
+    }
+    .back-color-bug{
+        background-image: linear-gradient(135deg, var(--color-bug), var(--color-bug-sec));
+    }
+    .back-color-ghost{
+        background-image: linear-gradient(135deg, var(--color-ghost), var(--color-ghost-sec));
+    }
+    .back-color-steel{
+        background-image: linear-gradient(135deg, var(--color-steel), var(--color-steel-sec));
+    }
+    .back-color-dragon{
+        background-image: linear-gradient(135deg, var(--color-dragon), var(--color-dragon-sec));
+    }
+    .back-color-fairy{
+        background-image: linear-gradient(135deg, var(--color-fairy), var(--color-fairy-sec));
+    }
+

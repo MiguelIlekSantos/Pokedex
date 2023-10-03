@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https: //fonts.googleapis.com/css2? Family = Sarabun: Ital, wght@0,100; 0,200; 0,300; 0,400; 0,500; 0,600; 0,700; 0,800; 1.100; 1.200; 1.300; 1,700; 1.800; 1,16 ; display=swap"
+        rel="folha de estilo">
+
+    <link rel="icon" type="image/x-icon" href="assets/imgs/pokeball.png">
+    <link rel="stylesheet" href="assets/css/poke-colors.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <main>
+        <h1>Pokedex</h1>
+        <ul id="poke-list" class="poke-list">
+        </ul>
+        <footer>
+            <button id="btn-more" class="btn-more">
+                Veja mais
+            </button>
+        </footer>
+    </main>
+
+    <div id="details-window" class="details-window">
+        <div class="sec-content">
+            <div class="window-btns">
+                <button id="close-window">
+                    <figure>
+                        <img src="assets/imgs/seta.png">
+                    </figure>
+                </button>
+            </div>
+            <div class="window-header">
+                <div>
+                    <h1 id="window-poke-name"></h1>
+                    <p id="window-class-poke"></p>
+                </div>
+                <div>
+                    <p id="window-number-poke"><span id="window-span-poke"></span></p>
+                    <figure>
+                        <img id="window-poke-img" src="" alt="">
+                    </figure>
+                </div>
+            </div>
+            <div class="window-content">
+                <div class="info-btns">
+                    <button id="btn-about">About</button>
+                    <button id="btn-base-stats">Base stats</button>
+                </div>
+                <div class="underline">
+                    <div id="underline"></div>
+                </div>
+                <div class="info-content">
+                    <div id="info-values-about" class="info-values-about">
+                        <div>
+                            <p>Species</p>
+                            <p>Height</p>
+                            <p>Weight</p>
+                            <p>Abilities</p>
+                        </div>
+                        <div>
+                            <p id="window-species-poke"></p>
+                            <p id="window-height-poke"></p>
+                            <p id="window-weight-poke"></p>
+                            <p id="window-abilities-poke"></p>
+                        </div>
+                    </div>
+                    <div id="info-values-base" class="info-values-base">
+                        <div>
+                            <p>HP</p>
+                            <p>Attack</p>
+                            <p>Defense</p>
+                            <p>Sp. Atk</p>
+                            <p>Sp. Def</p>
+                            <p>Speed</p>
+                            <p>Total</p>
+                        </div>
+                        <div>
+                            <p id="window-hp-poke"></p>
+                            <p id="window-attack-poke"></p>
+                            <p id="window-defense-poke"></p>
+                            <p id="window-spAtk-poke"></p>
+                            <p id="window-spDef-poke"></p>
+                            <p id="window-speed-poke"></p>
+                            <p id="window-total-poke"></p>
+                        </div>
+                        <div>
+                            <meter id="meter-one" max="100" min="0" value=""></meter>
+                            <meter id="meter-two" max="100" min="0" value=""></meter>
+                            <meter id="meter-three" max="100" min="0" value=""></meter>
+                            <meter id="meter-four" max="100" min="0" value=""></meter>
+                            <meter id="meter-five" max="100" min="0" value=""></meter>
+                            <meter id="meter-six" max="100" min="0" value=""></meter>
+                            <meter id="meter-seven" max="600" min="0" value=""></meter>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <script src="assets/js/api-conect.js"></script>
+    <script src="assets/js/detail-window.js"></script>
+    <script src="assets/js/site-features.js"></script>
+
+</body>
+
+</html>
