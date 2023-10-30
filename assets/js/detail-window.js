@@ -1,4 +1,4 @@
-x
+
 const pokeCards = document.querySelector('#poke-list');
 
 const detailsWindow = document.getElementById('details-window')
