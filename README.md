@@ -28,11 +28,11 @@
 ***
 
 <p align="center" dir="auto">
-   <a href="https://github.com/MiguelIlekSantos/russian-alphabet-game/edit/main/README.md#introduction">Introduction</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-   <a href="https://github.com/MiguelIlekSantos/russian-alphabet-game/edit/main/README.md#interfaces"> Interfaces</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-   <a href="https://github.com/MiguelIlekSantos/russian-alphabet-game/edit/main/README.md#stacks"> Stacks</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-   <a href="https://github.com/MiguelIlekSantos/russian-alphabet-game/edit/main/README.md#future-developing">Future developing</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-   <a href="https://github.com/MiguelIlekSantos/russian-alphabet-game/edit/main/README.md#why--bulb">Why ?</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+   <a href="https://github.com/MiguelIlekSantos/Pokedex/edit/main/README.md#introduction">Introduction</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+   <a href="https://github.com/MiguelIlekSantos/Pokedex/edit/main/README.md#interfaces"> Interfaces</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+   <a href="https://github.com/MiguelIlekSantos/Pokedex/edit/main/README.md#stacks"> Stacks</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+   <a href="https://github.com/MiguelIlekSantos/Pokedex/edit/main/README.md#future-developing">Future developing</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+   <a href="https://github.com/MiguelIlekSantos/Pokedex/edit/main/README.md#why--bulb">Why ?</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 </p>
  
 ***
