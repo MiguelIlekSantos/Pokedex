@@ -56,7 +56,7 @@
 <div dir="auto">
 <h2 tabindex="-1" id="user-content--stacks-" dir="auto"><a class="heading-link" href="#-stacks-"><img alt="skills" width="40" height="40" src="https://user-images.githubusercontent.com/59892368/197614534-e12fb94a-b5cf-44ff-8d57-debad7299b0b.png" style="max-width: 100%;"> Stacks</h2>
     
-## Language
+### Language
 
 <p dir="auto"><a href="https://www.typescriptlang.org/" rel="nofollow"> 
    <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript" rel="nofollow"><img alt="NextJS" width="50" height="50" src="https://camo.githubusercontent.com/6487cfe968d9e145c64087ba0095dfd6b8349167b6a1473395a2e88924d6729d/68747470733a2f2f6769746875622d70726f64756374696f6e2d757365722d61737365742d3632313064662e73332e616d617a6f6e6177732e636f6d2f35393839323336382f3235373330383837392d30616138653033322d343837372d343131642d383465342d6135616137346639323463622e737667" data-canonical-src="https://github-production-user-asset-6210df.s3.amazonaws.com/59892368/257308879-0aa8e032-4877-411d-84e4-a5aa74f924cb.svg" style="max-width: 100%;"></a>
@@ -78,7 +78,7 @@
    </li>
 </ul>
 
-## Style
+### Style
 
 <p dir="auto"><a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS" rel="nofollow"> 
       <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS" rel="nofollow"><img alt="TypeScript" width="50" height="50" 
@@ -90,7 +90,7 @@ src="https://camo.githubusercontent.com/92dc8e4a52f9b517fc80f4c8886065e441fe5140
 <li><code>Basic features</code> (display (Flex e Grid), flex-direction, height, width, border-radius... )</li>
 </ul>
 
-## Markup Language
+### Markup Language
 
 
 <p dir="auto"><a href="https://nextjs.org" rel="nofollow"> 
