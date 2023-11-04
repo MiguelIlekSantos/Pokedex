@@ -67,13 +67,13 @@
    <br>
    <li><code>Methods</code>
       <ul dir="auto">
-         <li><code>fetch(url) :</code> Este método é usado para fazer uma solicitação HTTP para o servidor e retorna um objeto Promise que, quando resolvido, contém a resposta da solicitação. </li> <br>
-         <li><code>.json() :</code> Este método é usado para converter a resposta da solicitação HTTP em um objeto JavaScript. Ele é uma função de método disponível no objeto Promise retornado pelo método <code>fetch()</code>.</li><br>
-         <li><code>.map() :</code>  Este método é usado para criar um novo array com os resultados de uma função aplicada a cada elemento do array original. Ele retorna um novo array com os resultados. </li><br>
-         <li><code>.join() :</code> Este método é usado para concatenar os elementos de um array em uma string usando um separador especificado. Ele retorna a string resultante.</li><br>
-         <li><code>Promise.all() :</code> Este método é usado para executar uma série de promissões em paralelo e retornar uma promessa que, quando resolvida, contém os resultados de todas as promissões. </li><br>
-         <li><code>.then() :</code> Este método é usado para definir o que deve ser feito quando a promessa for resolvida ou rejeitada. Ele retorna um novo objeto Promise que é executado quando a promessa original for resolvida ou rejeitada.  </li><br>
-         <li><code>.results :</code> Este método é usado para acessar o valor de retorno de uma promessa. Ele retorna o valor de retorno da promessa como um valor de tipo `any`.</li>
+           <li><code>fetch(url):</code> This method is used to make an HTTP request to the server and returns a Promise object that, when resolved, contains the response of the request.</li><br>
+           <li><code>.json():</code> This method is used to convert the HTTP request response into a JavaScript object. It is a method available on the Promise object returned by the <code>fetch()</code> method.</li><br>
+           <li><code>.map():</code> This method is used to create a new array with the results of a function applied to each element of the original array. It returns a new array with the results.</li><br>
+           <li><code>.join():</code> This method is used to concatenate the elements of an array into a string using a specified separator. It returns the resulting string.</li><br>
+           <li><code>Promise.all():</code> This method is used to execute a series of promises in parallel and return a promise that, when resolved, contains the results of all the promises.</li><br>
+           <li><code>.then():</code> This method is used to define what should be done when the promise is resolved or rejected. It returns a new Promise object that is executed when the original promise is resolved or rejected.</li><br>
+           <li><code>.result:</code> This method is used to access the return value of a promise. It returns the return value of the promise as a value of type `any`.</li>
       </ul>
    </li>
 </ul>
